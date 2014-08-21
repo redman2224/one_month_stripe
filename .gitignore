@@ -17,5 +17,6 @@
 
 
 # Sensitive Data
-config/database.yml
-config/settings_private.yml
+/config/database.yml
+/config/settings_private.yml
+/config/application.yml
