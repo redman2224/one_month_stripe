@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
+
+  resource :charges
+  
   root 'pages#home'
+
 
   
   # The priority is based upon order of creation: first created -> highest priority.
