@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 
   resource :charges
+
+  resources :purchases, only: [:show]
   
   root 'pages#home'
 
