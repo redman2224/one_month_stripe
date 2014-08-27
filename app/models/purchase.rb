@@ -1,6 +1,6 @@
 class Purchase < ActiveRecord::Base
 
-  # after_create :email_purchaser
+  after_create :email_purchaser
 
 
   def to_param
@@ -12,8 +12,8 @@ class Purchase < ActiveRecord::Base
 
 private
 
-def email_purchaser
-   PurchaseMailer.purchase_receipt(self).deliver
-end
+  def email_purchaser
+     PurchaseMailer.purchase_receipt(self).deliver
+  end
 
 end
