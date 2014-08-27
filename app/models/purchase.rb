@@ -1,6 +1,6 @@
 class Purchase < ActiveRecord::Base
 
-  after_create :email_purchaser
+  # after_create :email_purchaser
 
 
   def to_param

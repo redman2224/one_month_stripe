@@ -3,7 +3,7 @@ class PurchaseMailer < ActionMailer::Base
 
   default from: "One Month Commerce <commerce@onemonth.com>"
 
-  def purchase_receipt purchase
+  def purchase_receipt (purchase)
     @purchase = purchase
 
     mail to: purchase.email, subject: "Thanks for your purchase!"
