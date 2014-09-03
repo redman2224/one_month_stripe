@@ -43,8 +43,6 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem "figaro"
 
-gem 'letter_opener', :group => :development
-
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 gem 'devise'
